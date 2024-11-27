@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+    padding: 50px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #117a65;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to right, hsla(152, 78%, 77%, 0.604), hsla(164, 39%, 22%, 0.78)), url(../img/portada.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 100px; /* Añadir espacio en la parte superior */
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header .textos-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1 {
+    font-size: 70px;
+    color: #fff;
+}
+
+.textos-header h2 {
+    font-size: 50px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.contenedor-sobre-nosotros .titulo {
+    text-align: center;
+}
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagen-about-us {
+    width: 40%;
+}
+
+.sobre-nosotros .contenido-textos {
+    width: 48%;
+}
+
+.contenido-textos h3 {
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span {
+    background: #117a65;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.about-services {
+    background: #fff;
+    padding-bottom: 30px;
+}
+
+.servicio-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind {
+    width: 28%;
+    text-align: center;
+}
+
+.servicio-ind img {
+    width: 90%;
+}
+
+.servicio-ind h3 {
+    margin: 10px 0;
+}
+
+.contenedor2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.imagen-celda {
+    width: 25%;
+    padding: 3px;
+}
+
+.texto-celda {
+    width: 75%;
+    padding: 3px;
+}
+
+.imagen-colegio, .imagen-colegio2 {
+    width: 70%;
+    height: auto;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+p {
+    margin-top: 5px;
+}
+
+#map{
+    height: 500px;
+    width: 100%;
+}
